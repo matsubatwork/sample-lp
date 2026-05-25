@@ -87,10 +87,42 @@
 
 </div>
 
-  <br><br><br><br>
+  <br><br><br><br><br><br>
   
   <div class="hole"></div>
   <div class="golf-ball"></div>
+
+
+<script>
+
+window.addEventListener("scroll", () => {
+
+  const scrollPosition =
+    window.innerHeight + window.scrollY;
+
+  const pageHeight =
+    document.body.offsetHeight;
+
+  const ball =
+    document.querySelector(".golf-ball");
+
+  const hole =
+    document.querySelector(".hole");
+
+  if (scrollPosition >= pageHeight - 50) {
+
+    ball.style.display = "block";
+    hole.style.display = "block";
+
+  } else {
+
+    ball.style.display = "none";
+    hole.style.display = "none";
+  }
+
+});
+
+</script>
 
 </body>
 
