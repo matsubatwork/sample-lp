@@ -33,6 +33,14 @@ h1 {
   text-decoration: none;
   border-radius: 8px;
 }
+.map-button_4 {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #02550d;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 8px;
+}
 
 .container {
   width: 80%;
@@ -64,3 +72,13 @@ h1 {
   border-radius: 10px;
   margin-bottom: 18px;
 }
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+}
+
