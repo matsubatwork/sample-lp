@@ -9,6 +9,10 @@ h1 {
   font-size: 40px;
 }
 
+.title {
+  white-space: nowrap;
+}
+
 .map-button_1 {
   display: inline-block;
   padding: 12px 24px;
