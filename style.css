@@ -99,6 +99,36 @@ form {
   right: 40px;
 }
 
+.hole::before {
+  content: "";
+
+  position: absolute;
+
+  bottom: 10px;
+  left: 28px;
+
+  width: 4px;
+  height: 80px;
+
+  background-color: white;
+}
+
+.hole::after {
+  content: "";
+
+  position: absolute;
+
+  bottom: 60px;
+  left: 32px;
+
+  width: 30px;
+  height: 20px;
+
+  background-color: red;
+
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
 .golf-ball {
   width: 35px;
   height: 35px;
