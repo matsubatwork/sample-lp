@@ -3,6 +3,7 @@ body {
   padding-top: 100px;
   font-family: sans-serif;
   background-color: #66bb6a;
+  
 }
 
 h1 {
@@ -87,3 +88,59 @@ form {
   margin: auto;
 }
 
+.hole {
+  width: 60px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 10px;
+  right: 40px;
+}
+
+.golf-ball {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 30px;
+  left: -50px;
+
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+
+  animation: golf-roll 6s ease-in-out infinite;
+}
+
+@keyframes golf-roll {
+
+  0% {
+    left: -50px;
+    bottom: 30px;
+    transform: rotate(0deg);
+  }
+
+  20% {
+    bottom: 50px;
+  }
+
+  40% {
+    bottom: 30px;
+  }
+
+  60% {
+    bottom: 45px;
+  }
+
+  80% {
+    bottom: 30px;
+  }
+
+100% {
+  left: calc(100% - 80px);
+  bottom: 0px;
+  transform: rotate(720deg);
+}
+}
