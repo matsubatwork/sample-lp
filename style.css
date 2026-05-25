@@ -2,17 +2,65 @@ body {
   text-align: center;
   padding-top: 100px;
   font-family: sans-serif;
+  background-color: #f5f5f5;
 }
 
 h1 {
   font-size: 40px;
 }
 
-.map-button {
+.map-button_1 {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #a54d05;
+  background-color: #2803fa;
   color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 8px;
+}
+.map-button_2 {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #8d5102;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 8px;
+}
+.map-button_3 {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #421e01;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.container {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+}
+.container {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.main-image {
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 18px;
 }
