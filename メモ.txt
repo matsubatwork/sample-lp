@@ -1,0 +1,23 @@
+git remote add origin https://github.com/matsubatwork/sample-lp.git
+https://github.com/matsubatwork/sample-lp.git
+
+
+git config --global user.name matsubatwork
+
+git config --global user.email matsubat.work@gmail.com
+
+
+〇ご予約のご
+
+背景色もつける
+
+絵文字を画面内で1行にする
+
+〇動きも出す
+→アイアンとかドライバーで打って、ボールが転がっていく
+
+●ご予約フォームから実際にメールを飛ばす
+
+●URLを指定の文字列にしたい
+
+https://formspree.io/f/mykvdvyw
